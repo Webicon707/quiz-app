@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz World</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div class="quiz-header">
+        <h1>Quiz World Competition🎉</h1>
+        <p>Level: Beginner → Intermediate</p>
+      </div>
+
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+
+      <!-- Quiz Box -->
+      <div class="quiz-body" id="quizBox">
+        <div class="question-counter" id="questionCounter"></div>
+        <div class="question" id="questionText"></div>
+
+        <div class="timer">⏰ Time: <span id="timer">10</span> sec</div>
+
+        <div class="options" id="optionsBox"></div>
+
+        <div class="nav-buttons">
+          <button class="nav-btn prev-btn" id="prevBtn">⬅️ Previous</button>
+          <button class="nav-btn next-btn" id="nextBtn">Next ➡️</button>
+        </div>
+      </div>
+
+      <!-- Result Screen -->
+      <div class="result-screen" id="resultScreen">
+        <h2>Quiz Complete!🎉</h2>
+        <div class="score" id="scoreText">0/0</div>
+        <div class="high-score" id="highScoreText">High Score: 0/0</div>
+        <button class="restart-btn" id="restartBtn">🔄 Restart Quiz</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
+
